@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* Styling of the first header*/
+h1 {
+    background-color: hsl(76, 81%, 58%);
+}
+
+/* styling for linear gradients */
+body{
+    background-image: linear-gradient(#a4f9c8,#8ef9f3);
+}
+
+
+/* Styling of background colour of qns*/
+input:focus, select:focus, textarea:focus {
+    background-color: lightblue !important;
+}
+        
+
+/* Applying hue filter to image*/
+img{
+    filter: hue-rotate(320deg);
+}

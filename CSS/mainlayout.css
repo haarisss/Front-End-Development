@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* Styling of text for pages 1-5  */
+p, li {
+    font-family : sans-serif;
+    font-size : 1.0em;
+    line-height : normal;
+    letter-spacing : 0.1em;
+    color : hsl(22 79% 32%);
+    }
+
+h2 {
+    color : hsl(22 79% 32%);
+}
+/* Styling for background colors for all pages*/
+body {
+    background-color: hsl(54, 100%, 90%) !important;
+}
+
+/* Styling for my name at the top right */
+#haaris {
+    border: 3px solid purple;
+    background-color: purple;
+    font-style: italic;
+}
+
+/* Styling for colour of the navigation bars */
+#home {
+    border: 10px solid hsl(48, 90%, 52%);
+    background-color: hsl(48, 90%, 52%);
+}
+
+#presp {
+    border: 10px solid hsl(159, 100%, 50%);
+    background-color: hsl(159, 100%, 50%);
+}
+
+#lifeatsp {
+    border: 10px solid hsl(7, 87%, 52%);
+    background-color: hsl(7, 87%, 52%);
+}
+
+#careerprospects {
+    border: 10px solid hsl(203, 91%, 58%);
+    background-color: hsl(203, 91%, 58%);
+}
+
+#feedback {
+    border: 10px solid hsl(76, 81%, 58%);
+    background-color: hsl(76, 81%, 58%);
+}
+
+#grad{
+    border: 10px solid pink;
+    background-color: pink;
+}
+
+
+

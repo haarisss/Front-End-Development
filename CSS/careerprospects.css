@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* Styling of the first header*/
+h1 {
+    background-color: hsl(203, 91%, 58%);
+}
+
+/* Styling for linear gradient */
+body{
+    background-image: linear-gradient(cyan,lightseagreen);
+}
+
+/* Gap between 2 lists */
+div.thelists {
+    gap: 100px;
+}
+
+/*Styling for table*/
+table, th, td {
+    border: 2px solid lightskyblue ;
+}
+/* Styling for video */
+.youtube {
+    float: right;
+    margin-top: 15px;
+}
+
+/* Styling for images size */
+img{
+    height: 400px;
+    width: 350px;
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!--
+        Author: Haaris Bin Sulaiman
+        Date: 29/5/2021
+        DAAA 1A/01
+        Career Prospects
+        Statistic photos from:
+        forbes- https://bit.ly/3fXkNTi
+        world economic forum- https://bit.ly/3pqArtb
+        Video from:https://youtu.be/wTbrk0suwbg
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Career Prospects</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="../CSS/mainlayout.css" rel="stylesheet" />
+    <link href="../CSS/careerprospects.css" rel="stylesheet" />
+    <script src="../JS/careers.js" defer></script>
+    
+
+</head> 
+<body>
+<!--Codes for top nav pills and links-->    
+    <header>
+            <nav class="navig">
+                <nav class="nav nav-pills justify-content-center  flex-column flex-sm-row">
+                   <a class="nav-item nav-link active" href="aboutme.html" id="home">Home</a>
+                   <a class="nav-item nav-link active" href="pre-sp.html" id="presp">Pre-SP</a>
+                   <a class="nav-item nav-link active" href="lifeatsp.html" id="lifeatsp">Life at SP</a>
+                   <a class="nav-item nav-link active" href="careerprospects.html" id="careerprospects">Career Prospects</a>
+                   <a class="nav-item nav-link active" href="feedback.html" id="feedback">Feedback</a>
+                   <a class="nav-item nav-link disabled" href="#" id="grad">Graduation</a>
+                </nav>   
+                <!-- this is a anv pill with no link just to show my name -->
+                <nav class="nav nav-pills justify-content-end">
+                    <a class="nav-item nav-link active" href="#" id="haaris">haaris</a>
+                </nav>
+            </nav>   
+    </header>
+        <!--Code for biggest heading-->
+        <h1 class="display-4 text-center font-italic font-weight-light">Career Prospects</h1>  
+        <div class="container-fluid">  
+            <!-- codes to align the 2 lists side by side using d-flex -->
+            <div class="row thelists d-flex"> 
+                    <div class="col">
+                        <!--Code for list of skills-->
+                        <h2>Skills obtained from my course:</h2> 
+                            <ul class="list-unstyled">
+                                    <li>Front-End Web Development</li>
+                                    <li>Critical and Analytical Thinking</li>               
+                                    <li>Deep Learning</li>
+                                    <li>AI& Machine Learning</li>
+                                    <li>Data Engineering</li>
+                                    <li>Back-End Web Development</li>
+                            </ul>    
+                    </div>
+                    <div class="col">
+                        <!--Code for list of careers-->     
+                        <h2>Possible Careers:</h2>
+                            <ul class="list-unstyled">
+                                    <li>Data Analyst</li>
+                                    <li>Data Scientist</li>
+                                    <li>Data Engineer</li>
+                                    <li>Business Intelligence Specialist</li>
+                                    <li>Software Developer</li>
+                            </ul>
+                    </div>
+            </div>    
+            <!--Code for heading and the paragraph for job security--> 
+            <h2 class="text-center">Job Security</h2>
+            <p class="text-justify">Due to the rapid evolution of technology, AI is crucial for convenience and to better the lives of many. With AI, many tasks can be carried out faster and things that were merely impossible can be carried out. Therefore, the field of AI is growing and there is a great demand for AI professionals. Having a career related to AI is very secure as it will directly have an impact  on  and cannot be substituted with robots. Do take a look at the table and statistics as well.</p>
+            <!-- manyjobs is the id for the javascript function that creates a table -->
+            <div class="row">
+                <div class="col-sm-6 col-md-12 col-lg-12"> 
+                    <div id="manyjobs"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-12 col-lg-12">
+                    <!-- a form is used to ask a question and a javascript function will show the jobs available. 
+                    cash and money are ids used in the javascript -->
+                    <form>
+                        <label for="cash">What is your minimum expected salary?</label>
+                        <input class="form-control form-control-md" type="text" id="cash" placeholder="key in your minimum salary">
+                    </form><br>
+                    <button onclick="asksalary()" value="Display">Find jobs available for you:</button>
+                    <p id="money"></p>
+                </div>
+            </div>
+            <!--Code for heading and paragraph for statistics--> 
+            <h2 class="text-center">Statistics</h2>                 
+            <p>As you can see below, the careers listed above are in growing demand and are one of thejobs that will be highly seeked after. According to Forbes, there will be 71% growth of AI related careers in just 5 years. World Economic Forum also shows that Data Analysts and Scientists will be the job with the highest demand. Hence, careers in the AI field are very secured and sustainable.</p>
+            <!-- codes to align images side by side using rows and columns -->
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img class="img-fluid w-100" src="../images/forbesai.jpg" alt="topjobs">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img class="img-fluid w-100" src="../images/aigood.png" alt="job demands">
+                </div>    
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>    
+</body>
+</html>

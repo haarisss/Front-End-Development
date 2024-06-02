@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* Styling of the first header*/
+h1 {
+    background-color: hsl(159, 100%, 50%);
+}
+
+/* Styling for box-shadow and borders */
+.shadow{
+    border: 5px solid;
+    padding: 10px;
+    box-shadow: 8px 4px 4px 4px saddlebrown;
+}    
+
+/* styling for the max-height of the carousel images */
+.carousel-item{
+    max-height: 600px;
+}
+
+/* styling of saturate filter for all the images in the carousels */
+img{
+    filter: saturate(150%);
+}
